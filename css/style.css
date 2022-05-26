@@ -322,6 +322,7 @@ input[type="text"]:focus::placeholder {
   .form-container {
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5.875rem;
     max-width: 637px;
   }
 }
