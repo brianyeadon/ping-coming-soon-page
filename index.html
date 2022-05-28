@@ -37,16 +37,17 @@
     </header>
     <main>
       <div class="main-content">
-        <div class="form">
-          <form action="#" method="GET">
-            <div class="form-container">
-              <input type="text" placeholder="Your email address..." />
-              <button class="btn">
-                <a href="https://www.google.com" target="blank">Notify Me</a>
-              </button>
-            </div>
-          </form>
-        </div>
+        <form action="#" method="" class="form">
+          <div class="form-container">
+            <input
+              class="input"
+              type="text"
+              placeholder="Your email address..."
+              required
+            />
+            <button class="btn" type="submit">Notify Me</button>
+          </div>
+        </form>
         <img
           src="./images/illustration-dashboard.png"
           alt="screenshot of the PING dashboard"
@@ -55,11 +56,23 @@
       </div>
     </main>
     <footer>
-      <div class="social-media-icons">
-        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a
-        ><a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a
-        ><a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
-      </div>
+      <ul class="social-media-icons">
+        <li>
+          <a href="#" class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
       <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
     </footer>
   </body>
